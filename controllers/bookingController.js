@@ -1,7 +1,7 @@
-import Booking from "../models/booking.js";
-import Room from "../models/room.js";
+import Booking from "../models/Booking.js";
+import Room from "../models/Room.js";
 import Hotel from "../models/Hotel.js";
-import transporter from "../configs/nodeMailer.js";
+
 
 
 
