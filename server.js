@@ -15,7 +15,7 @@ connectCloudinary();
 
 const app=express()
 app.use(cors({
-  origin: "https://your-frontend.vercel.app", // replace with your actual Vercel frontend URL
+  origin: "https://hotel-book-client.vercel.app", // replace with your actual Vercel frontend URL
   credentials: true, // if using cookies or sessions
 }));
 
