@@ -14,7 +14,10 @@ connectDB();
 connectCloudinary();
 
 const app=express()
-app.use(cors()) // Enable Cross-origin resource sharing
+app.use(cors({
+  origin: "https://your-frontend.vercel.app", // replace with your actual Vercel frontend URL
+  credentials: true, // if using cookies or sessions
+}));
 
 // Middleware
 app.use(express.json())
